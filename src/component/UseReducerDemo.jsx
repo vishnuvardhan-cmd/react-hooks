@@ -9,7 +9,7 @@ const UseReducerDemo = () => {
         return { count: state.count + 1 +1};
       }
       case "decrease": {
-        return { count: state.count - 1 };
+        return { count: state.count - 1-1 };
       }
       case "input": {
         return { count: action.payload };
